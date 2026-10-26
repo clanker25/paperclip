@@ -1,0 +1,28 @@
+{
+  "autoReview": ["open", "push", "rebase"],
+  "excludeAuthors": ["dependabot[bot]"],
+  "effort": "base",
+  "strictness": 3,
+  "shouldUpdateDescription": false,
+  "summarySection": {
+    "included": false,
+    "collapsible": false,
+    "defaultOpen": false
+  },
+  "confidenceScoreSection": {
+    "included": true
+  },
+  "issuesTableSection": {
+    "included": false
+  },
+  "sequenceDiagramSection": {
+    "included": false
+  },
+  "fixWithAI": false,
+  "statusCheck": true,
+  "statusCommentsEnabled": true,
+  "autoApprove": {
+    "enabled": false,
+    "riskCeiling": "low"
+  }
+}
